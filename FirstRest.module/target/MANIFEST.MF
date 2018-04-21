@@ -1,0 +1,19 @@
+Manifest-Version: 1.0.0.201804211352
+Bundle-ManifestVersion: 2
+Bundle-Name: FirstRest Module
+Bundle-SymbolicName: FirstRest.module
+Bundle-Version: 1.0.0.201804211352
+Bundle-Vendor: TIBCO Software Inc.
+TIBCO-BW-Edition: bwcf
+TIBCO-BW-Version: 2.3.3 V12 2018-02-20
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",com.tib
+ co.bw.palette; filter:="(name=bw.generalactivities)",com.tibco.bw.sha
+ redresource.model; filter:="(name=bw.httpconnector)",com.tibco.bw.bin
+ ding.model; filter:="(name=bw.rest)"
+TIBCO-BW-ApplicationModule: META-INF/module.bwm
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
+TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
+TIBCO-BWCE-Edition-Target: cf
+TIBCO-BW-JobSharedVariables: META-INF/module.jsv
+Bundle-ClassPath: .
+
